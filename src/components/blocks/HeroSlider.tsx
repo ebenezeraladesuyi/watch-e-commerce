@@ -2,7 +2,8 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import watches from "../../assets/watches/heroWatches.png"
+import watches from "../../assets/watches/heroWatches.png";
+import dot from "../../assets/dots.png";
 
 const HeroSlider = () => {
     const settings = {
@@ -48,6 +49,10 @@ const HeroSlider = () => {
 
                 <h5 className='text-gray-200 font-roboto font-medium'>Luxury Craftsmanship
                 </h5>
+
+                <img src={dot} alt="" className='absolute w-[250px]' />
+
+                <img src={dot} alt="" className='absolute w-[250px] right-0 rotate-180' />
 
               </div>
             </div>
