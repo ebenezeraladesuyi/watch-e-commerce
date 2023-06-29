@@ -27,10 +27,11 @@ const HeroSlider = () => {
                 <h5 className='text-gray-200 font-roboto font-medium'>Timeless Elegance
                 </h5>
 
-                <div className='w-[330px] h-[500px] border-4  border-white mt-[30px]'>
-                  <img src={watches} alt="" className='  w-[600px] absolute top-[60px] left-[140px]' />
+                <img src={watches} alt="" className='  w-[600px] absolute top-[60px] left-[140px] z-[1]' />
 
-                  <div className='absolute bottom-[30px] left-[308px] flex text-gray-200 justify-between items-center w-[250px]'>
+                <div className='w-[330px] h-[500px] border-4  border-white mt-[30px] relative'> 
+
+                  <div className='absolute bottom-[23px] left-[40px] flex text-gray-200 justify-between items-center w-[250px]'>  
                     <h4 className='text-[20px] font-bold mr-[20px]'>$500.00</h4>
 
                     <div className=''>
@@ -39,9 +40,9 @@ const HeroSlider = () => {
                     </div>
                   </div>
 
-                  <div className='absolute bottom-[-7px] left-[390px] flex text-gray-200 justify-center items-center w-[100px]  bg-heroBg rounded-3xl'>30% 0FF</div>
+                  <div className='absolute bottom-[-10px] left-[115px] flex text-gray-200 justify-center items-center w-[100px]  bg-heroBg rounded-3xl overflow-hidden '>30% 0FF</div>
 
-                  <div className='absolute top-[20px] left-[330px] flex text-gray-200 justify-center items-center w-[200px] bg-heroBg rounded-3xl font-medium border-2  border-white '>EXQUISITE</div>
+                  <div className='absolute top-[-16px] left-[61px] flex text-gray-200 justify-center items-center w-[200px] bg-heroBg rounded-3xl font-medium border-2  border-white '>EXQUISITE</div>
 
                 </div>
 
