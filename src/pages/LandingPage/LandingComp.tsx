@@ -1,6 +1,7 @@
 // import React from 'react'
 
 import Hero from "./Hero"
+import TopProducts from "./TopProducts"
 
 
 
@@ -9,6 +10,7 @@ const LandingComp = () => {
     <div>
 
         <Hero />
+        <TopProducts />
 
     </div>
   )

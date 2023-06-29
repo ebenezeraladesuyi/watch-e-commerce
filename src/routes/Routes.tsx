@@ -1,8 +1,7 @@
 // import React from 'react'
-import {createBrowserRouter}  from "react-router-dom"
-import { HomeLayout } from "../layout/homeLayout"
-// import { LandingComp } from "../pages"
-import HeroSlider from "../components/blocks/HeroSlider"
+import {createBrowserRouter}  from "react-router-dom";
+import { HomeLayout } from "../layout/homeLayout";
+import { LandingComp } from "../pages";
 
 
 export const element = createBrowserRouter([
@@ -12,7 +11,7 @@ export const element = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <HeroSlider />,
+                element: <LandingComp />,
             },
         ]
     }

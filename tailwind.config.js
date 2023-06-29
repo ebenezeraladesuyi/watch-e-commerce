@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'heroBg': '#192F54',
+        'color1':  '#eef0f3',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif']
