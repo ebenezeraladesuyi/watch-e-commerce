@@ -16,13 +16,13 @@ const TopProducts = () => {
 
         <div className="w-[90%] h-[90%] flex flex-col items-center">
 
-            <h2 className="text-[20px] text-heroBg font-bold text-center animate-bounce border-b-2 border-t-2 border-heroBg mt-[20px]">TOP PRODUCTS
+            <h2 className="text-[20px] text-blue-500 font-bold text-center animate-bounce border-b-2 border-t-2 border-blue-500 mt-[20px]">TOP PRODUCTS
             </h2>
 
-            <div className="w-[40%] bg-color1 flex justify-around items-center text-heroBg h-[50px] mt-[20px] mb-[30px]">
-                <h3 className="text-[20px] font-bold font-roboto cursor-pointer hover:text-orange-600" onClick={reveal}>ROLEX</h3>
+            <div className="w-[40%] bg-color1 flex justify-around items-center text-heroBg h-[50px] mt-[20px] mb-[30px] rounded-3xl">
+                <h3 className="text-[20px] font-bold font-roboto cursor-pointer text-gray-500 hover:text-blue-500" onClick={reveal}>ROLEX</h3>
 
-                <h3 className="text-[20px] font-bold font-roboto cursor-pointer hover:text-orange-600" onClick={reveal}>CALVIN KLIEN
+                <h3 className="text-[20px] font-bold font-roboto cursor-pointer text-gray-500 hover:text-blue-500" onClick={reveal}>CALVIN KLIEN
                 </h3>
             </div>
 
@@ -31,7 +31,7 @@ const TopProducts = () => {
 
                 (<div className="w-[70%] flex justify-between items-center font-roboto transition-all ease-in-out duration-1000 text-heroBg">
 
-                <div className='w-[220px]'>
+                <div className='w-[220px] text-blue-500'>
                     <div className=''>
                       <h4 className='text-[18px] font-bold text-right'>FASHION STATEMENTS</h4>
                       <h6 className='text-[14px] text-roboto mb-[15px] text-right'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus natus adipisci!</h6>
@@ -49,7 +49,7 @@ const TopProducts = () => {
 
                 <img src={watch2} alt="" className="w-[190px] hover:rotate-90 transition-all ease-in-out duration-500"/>
 
-                <div className='w-[220px]'>
+                <div className='w-[220px]  text-blue-500'>
                     <div className=''>
                       <h4 className='text-[18px] font-bold '>CLASSIC APPEAL</h4>
                       <h6 className='text-[14px] text-roboto mb-[15px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus natus adipisci!</h6>
@@ -71,7 +71,7 @@ const TopProducts = () => {
                 (
                 <div className="w-[70%] flex justify-between items-center font-roboto transition-all ease-in-out duration-1000 text-heroBg">
 
-                <div className='w-[220px]'>
+                <div className='w-[220px]  text-blue-500'>
                     <div className=''>
                       <h4 className='text-[18px] font-bold text-right'>FASHION STATEMENTS</h4>
                       <h6 className='text-[14px] text-roboto mb-[15px] text-right'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus natus adipisci!</h6>
@@ -89,7 +89,7 @@ const TopProducts = () => {
 
                 <img src={watch} alt="" className="w-[350px] hover:rotate-90 transition-all ease-in-out duration-500"/>
 
-                <div className='w-[220px]'>
+                <div className='w-[220px] text-blue-500'>
                     <div className=''>
                       <h4 className='text-[18px] font-bold '>CLASSIC APPEAL</h4>
                       <h6 className='text-[14px] text-roboto mb-[15px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus natus adipisci!</h6>
@@ -107,7 +107,7 @@ const TopProducts = () => {
                 </div>)
             }
 
-            <button className='w-[200px] h-[40px] mt-[30px] bg-heroBg rounded-3xl text-white font-bold cursor-pointer animate-pulse'>SHOP NOW</button>
+            <button className='w-[200px] h-[40px] mt-[30px] bg-blue-500 rounded-3xl text-white font-bold cursor-pointer animate-pulse'>SHOP NOW</button>
 
         </div>
 

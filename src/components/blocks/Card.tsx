@@ -23,8 +23,8 @@ const Card : React.FC<CardInt> = ({watchImg, rating, watchName, price}) => {
                 </div>
                 <h5 className='text-[14px] font-bold '>{ rating } </h5>
             </div>
-
-            <h4 className='text-black font-bold text-[18px]'>{ watchName } </h4>
+            
+            <h4 className='text-blue-500 font-medium text-[18px]'>{ watchName } </h4>
 
             <h4 className='text-gray-300 font-bold'>{ price }</h4>
 
