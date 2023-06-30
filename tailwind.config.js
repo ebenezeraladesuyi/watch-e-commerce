@@ -7,11 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        'heroBg': '#192F54',
+        'heroBg1': '#192F54',
+        'heroBg': '#000000',
         'color1':  '#eef0f3',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif']
+      },
+      backgroundImage: {
+        watchBg: 'url("./src/assets/watches/watchBg.jpg")',
       }
     },
   },
