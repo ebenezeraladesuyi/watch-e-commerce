@@ -26,15 +26,31 @@ const Cards = () => {
         autoplay: true,
         autoplaySpeed: 3000,
         speed: 700,
+        responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+            }
+            },
+            {
+                breakpoint: 475,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
       };
 
 
   return (
-    <div className="w-full h-[70vh] overflow-hidden flex justify-center items-center font-roboto">
+    <div className="w-full min-h-[70vh] overflow-hidden flex justify-center items-center font-roboto">
 
-        <div className="w-[90%] h-full">
+        <div className="w-[90%] h-full mb-[20px]">
 
-            <div className="w-full flex justify-around items-center mt-[30px] mb-[30px]">
+            <div className="w-full flex justify-center items-center mt-[30px] md:mb-[30px] mb-[20px] flex-wrap gap-2 md:gap-4">
                 <Button 
                     buttonTitle="ALL"
                     back="bg-black"
@@ -48,7 +64,7 @@ const Cards = () => {
                 <Button 
                     buttonTitle="WOMEN"
                 />
-                <Button 
+                {/* <Button 
                     buttonTitle="CARTIER"
                 />
                 <Button 
@@ -58,14 +74,14 @@ const Cards = () => {
                     buttonTitle="CALVIN KLIEN"
                 />
                 <Button 
-                    buttonTitle="OTEO"
-                />
+                    buttonTitle="iWATCHES" */}
+                {/* /> */}
 
             </div>
 
             <div className="w-full flex justify-between items-center">
 
-                <Slider {...settings} className='w-full flex items-center justify-center'>
+                <Slider {...settings} className='w-full flex items-center justify-center ml-[25px] md:ml-[5px]'>
 
                     
                 <Card
