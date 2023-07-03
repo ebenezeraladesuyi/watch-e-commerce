@@ -26,8 +26,8 @@ const Hero = () => {
 
           <Slider {...settings} className='w-[100%]   '>
 
-            <div className='h-full flex items-center justify-center font-roboto md:ml-[250px] ml-[15px]'>
-              <div className='md:w-[65%] w-[300px] h-[100%] flex flex-col md:flex md:flex-row items-center justify-between relative mt-[70px] md:mt-[0px]'>
+            <div className='h-full flex items-center justify-center font-roboto md:ml-[250px] ml-[35px]'>
+              <div className='md:w-[65%] w-[300px] h-[100%] flex flex-col md:flex md:flex-row items-center justify-between relative md:mt-[0px]'>
 
                 <h5 className='text-gray-200 font-roboto font-medium mb-[30px] md:mb-[0px]'>Timeless Elegance
                 </h5>
@@ -65,8 +65,8 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className='h-full flex items-center justify-center font-roboto md:ml-[250px] ml-[15px]'>
-              <div className='md:w-[65%] w-[300px] h-[100%] flex flex-col md:flex md:flex-row items-center justify-between relative mt-[70px] md:mt-[0px] '>
+            <div className='h-full flex items-center justify-center font-roboto md:ml-[250px] ml-[35px]'>
+              <div className='md:w-[65%] w-[300px] h-[100%] flex flex-col md:flex md:flex-row items-center justify-between relative  md:mt-[0px] '>
 
                 <h5 className='text-gray-200 font-roboto font-medium mb-[30px] md:mb-[0px]'>Timeless Elegance
                 </h5>
@@ -104,8 +104,8 @@ const Hero = () => {
               </div>
             </div>  
             
-            <div className='h-full flex items-center justify-center font-roboto md:ml-[250px] ml-[15px]'>
-              <div className='md:w-[65%] w-[300px] h-[100%] flex flex-col md:flex md:flex-row items-center justify-between relative  mt-[70px] md:mt-[0px] '>
+            <div className='h-full flex items-center justify-center font-roboto md:ml-[250px] ml-[35px]'>
+              <div className='md:w-[65%] w-[300px] h-[100%] flex flex-col md:flex md:flex-row items-center justify-between relative   md:mt-[0px] '>
 
                 <h5 className='text-gray-200 font-roboto font-medium mb-[30px] md:mb-[0px]'>Timeless Elegance
                 </h5>

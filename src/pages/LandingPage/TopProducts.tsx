@@ -16,7 +16,7 @@ const TopProducts = () => {
 
         <div className="w-[90%] h-[90%] flex flex-col items-center">
 
-            <h2 className="text-[20px] text-blue-500 font-bold text-center animate-bounce border-b-2 border-t-2 border-blue-500 mt-[20px]">TOP PRODUCTS
+            <h2 className="text-[20px] text-blue-500 font-bold text-center animate-bounce border-b-2 border-t-2 border-blue-500 mt-[30px]">TOP PRODUCTS
             </h2>
 
             <div className="w-[270px]  bg-color1 flex justify-around items-center text-heroBg h-[50px] mt-[20px] mb-[30px] rounded-3xl">
