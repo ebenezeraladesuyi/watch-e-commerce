@@ -81,7 +81,7 @@ const Cards = () => {
 
             <div className="w-full flex justify-between items-center">
 
-                <Slider {...settings} className='w-full flex items-center justify-center ml-[25px] md:ml-[5px]'>
+                <Slider {...settings} className='w-full flex items-center justify-center ml-[35px] md:ml-[5px]'>
 
                     
                 <Card
